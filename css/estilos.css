@@ -1,90 +1,61 @@
-.logo_wolf{
-    width: 100px;
-    height: 100px;
-}
+/* importando estilos*/
+/*modificaciones al logo*/
+.logo_wolf {
+  width: 150px;
+  height: 150px;
+  padding: 20px;
+  list-style: none; }
 
-.logo_wolf{
-    list-style: none;
-    padding: 10px;
-}
+/* modif header cambio de color texto menu*/
+.nav-item .color_texto {
+  color: black; }
 
-.iconos_separacion ul li{
-    margin-right: 20px;
-}
+/* modif header- donde estamos*/
+.iconos_header {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  color: black; }
 
-.texto_header{
-    text-align: center;
-    padding: 30px;
-}
+/* Linea de color gris que divide header de main*/
+main {
+  border-top: 1px solid #cccccc; }
 
-.iconos_header{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-}
-
-.menu_header{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    align-content: space-between;
-    margin: 10px;
-}
-
-.menu_header2 li{
-    margin: 20px;
-}
-
-.nav-item{
+/* variables*/
+/* variables*/
+/* alineacion de iconos redes sociales*/
+.menu_footer ul li {
+  list-style: none;
+  margin-inline-start: -30px; }
+  .menu_footer ul li a {
     color: black;
-}
+    text-decoration: none; }
 
-main{
-    border-top: 1px solid #cccccc;
-}
+/* escalado de iconos del footer*/
+.escalado_iconos {
+  align-content: flex-end;
+  margin: 25px;
+  width: 40px;
+  height: 40px; }
 
-.menu_footer li{
-    list-style: none;
-    margin-inline-start:-30px;
-}
+.escalado_iconos2 {
+  display: flex;
+  align-content: space-around;
+  list-style: none; }
 
-.menu_footer li a{
-    color: black;
-    text-decoration: none;
-}
+/* preguntas frecuentes */
+/* alinecion del texto vertical, horizontal y color*/
+.preguntas_frecuentes {
+  color: black;
+  margin: 5px;
+  padding: 30px; }
 
-.escalado_iconos{
-    align-content:flex-end;
-    margin: 25px;
-    width: 40px;
-    height: 40px;
-}
+/* alineacion de titulo preguntas frecuentes*/
+.preguntas_frecuentes2 {
+  text-align: center;
+  text-decoration: underline;
+  padding: 25px; }
 
-.escalado_iconos2{
-    display: flex;
-    flex-direction: row;
-    align-content: space-around;
-}
-
-.estilo_productos{
-    display: flex;
-    flex-direction: row;
-}
-
-.contenedor2{
-    display: flex;
-    flex-direction: row;
-}
-
-.boton_formulario{
-    padding: 15px;
-    margin: 10px;
-}
-
-.color_texto{
-    color:black
-}
-
-.transform1{
-    box-shadow: #000000 20px 0px 30px;
-}
+.boton_formulario {
+  padding: 15px;
+  margin: 10px; }
